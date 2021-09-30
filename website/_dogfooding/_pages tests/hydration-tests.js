@@ -2,6 +2,7 @@ import React from 'react';
 import Layout from '@theme/Layout';
 
 // Repro for hydration issue https://github.com/facebook/docusaurus/issues/5617
+// See https://github.com/facebook/docusaurus/pull/5629
 function BuggyText() {
   return (
     <span>
